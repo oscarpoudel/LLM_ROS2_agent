@@ -34,7 +34,8 @@ html_readme = """
 <h2>🔌 Requirements</h2>
 <ul>
 <li>Python ≥ 3.9</li>
-<li>ROS 2 (Humble or Foxy) with Nav2 stack</li>
+<li>Tested on ROS 2 Jazzy with turtlebot and Nav2 stack in docker container</li>
+<li>You can use this environment to setup the robot: https://github.com/oscarpoudel/turtlebot-maze</li>
 <li><a href="https://ollama.com" target="_blank">Ollama</a> or Gemini models for LLM</li>
 <li>NATS server</li>
 </ul>
@@ -88,6 +89,8 @@ python-dotenv
 <tbody>
 <tr><td>motion</td><td>"Move forward 1 meter"</td><td>motion_tool</td><td>Sends JSON <code>{distance: 1.0, angle: 0.0}</code></td></tr>
 <tr><td>motion</td><td>"Turn left 90 degrees"</td><td>motion_tool</td><td><code>{distance: 0.0, angle: 90.0}</code></td></tr>
+<tr><td>motion</td><td>"Go 1m front and left 90 degrees"</td><td>motion_tool</td><td><code>{distance: 1.0, angle: 90.0}</code></td></tr>
+<tr><td>nav</td><td>"Go to the boat"</td><td>nav_tool</td><td><code>{location: "boat"}</code></td></tr>
 <tr><td>nav</td><td>"Go to the lab"</td><td>nav_tool</td><td>Sends goal name to Nav2 goal handler</td></tr>
 <tr><td>vision</td><td>"What do you see?"</td><td>vision_tool</td><td>Snapshot from camera + analysis</td></tr>
 <tr><td>status</td><td>"What's the battery level?"</td><td>status_tool</td><td>Replies with CPU, battery, and system health</td></tr>
