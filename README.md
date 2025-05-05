@@ -1,4 +1,3 @@
-html_readme = """
 <h1>🤖 ROS-LM: Natural Language Robot Assistant</h1>
 <p>ROS-LM is a multimodal LLM-powered agent that enables <strong>natural language control</strong> of a ROS2 robot using NATS-based communication. It supports robot motion, waypoint navigation, vision queries, system diagnostics, and ROS2 CLI control—via CLI or Streamlit web app.</p>
 
@@ -109,4 +108,4 @@ python-dotenv
 <h2>📬 Author</h2>
 <p>Maintained by Oscar Poudel<br>
 <a href="https://github.com/oscarpoudel">GitHub</a> | <a href="https://www.linkedin.com/in/oscar-poudel/">LinkedIn</a></p>
-"""
+
