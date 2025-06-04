@@ -1,8 +1,8 @@
+![Test Image Only](https://github.com/oscarpoudel/LLM_ROS2_agent/blob/main/sample_prompt.png?raw=True)
 <h1>🤖 ROS-LM: Natural Language Robot Assistant</h1>
 <p>ROS-LM is a multimodal LLM-powered agent that enables <strong>natural language control</strong> of a ROS2 robot using NATS-based communication. It supports robot motion, waypoint navigation, vision queries, system diagnostics, and ROS2 CLI control—via CLI or Streamlit web app.</p>
 
 <hr>
-![Test Image Only](https://github.com/oscarpoudel/LLM_ROS2_agent/blob/main/sample_prompt.png?raw=true)
 
 
 <h2>🗂️ Project Layout</h2>
