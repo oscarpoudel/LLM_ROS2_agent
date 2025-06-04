@@ -2,7 +2,8 @@
 <p>ROS-LM is a multimodal LLM-powered agent that enables <strong>natural language control</strong> of a ROS2 robot using NATS-based communication. It supports robot motion, waypoint navigation, vision queries, system diagnostics, and ROS2 CLI control—via CLI or Streamlit web app.</p>
 
 <hr>
-<iframe src="https://drive.google.com/file/d/1Q1CFIFPGX8c-np7cUPN122n2WaYQ_G7x/preview" width="640" height="480" allow="autoplay"></iframe>
+[![Watch the video](https://github.com/oscarpoudel/LLM_ROS2_agent/blob/849602e7d086e3857cac098ba9bd463cc12698fc/sample_prompt.png)](https://www.youtube.com/watch?v=PuTxxFVae1M)
+
 <h2>🗂️ Project Layout</h2>
 <pre><code>.
 ├── agent.py                 # CLI-based interface to run ROS-LM agent
