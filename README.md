@@ -3,7 +3,8 @@
 
 <hr>
 
-# ![Test Image Only](https://github.com/oscarpoudel/LLM_ROS2_agent/blob/main/sample_prompt.png?raw=True)
+# [![Watch the video](https://github.com/oscarpoudel/LLM_ROS2_agent/blob/849602e7d086e3857cac098ba9bd463cc12698fc/sample_prompt.png?raw=true)](https://www.youtube.com/watch?v=PuTxxFVae1M)
+
 <h2>🗂️ Project Layout</h2>
 <pre><code>.
 ├── agent.py                 # CLI-based interface to run ROS-LM agent
