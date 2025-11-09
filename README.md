@@ -8,6 +8,9 @@
     <img src="https://github.com/oscarpoudel/LLM_ROS2_agent/blob/849602e7d086e3857cac098ba9bd463cc12698fc/sample_prompt.png?raw=true" width="400">
 </a>
 
+[Watch the project video on YouTube](https://www.youtube.com/watch?v=PuTxxFVae1M)
+
+
 
 <h2>🗂️ Project Layout</h2>
 <pre><code>.
